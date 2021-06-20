@@ -1,0 +1,54 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath 'com.google.gms:google-services:4.3.4'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url "https://maven.google.com" }
+        maven { url "https://jitpack.io" }
+        maven { url "http://dl.bintray.com/jlmd/maven" }
+        maven{
+            url "https://oss.sonatype.org/content/repositories/snapshots"
+
+        }
+        maven{
+            url 'https://zendesk.jfrog.io/zendesk/oss-releases-local'
+
+        }
+        jcenter()
+        google()
+
+        maven {
+            url "https://cardinalcommerce.bintray.com/android"
+            credentials {
+                username 'braintree-team-sdk@cardinalcommerce'
+                password '220cc9476025679c4e5c843666c27d97cfb0f951'
+            }
+        }
+// maven {
+// url 'https://sdk.squareup.com/public/android'
+// }
+        maven{
+            url "https://dl.bintray.com/payhere/payhere-android-payment"
+        }
+        mavenCentral()
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "849950857083",
+    "firebase_url": "https://isajoh-android-app.firebaseio.com",
+    "project_id": "isajoh-android-app",
+    "storage_bucket": "isajoh-android-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849950857083:android:2aa9046887f04ec1eb4fde",
+        "android_client_info": {
+          "package_name": "com.isajoh.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849950857083-m0ihhlammq1ecapn796k4s9mgpp6avgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isajoh.app",
+            "certificate_hash": "8adb9c587444cf8b510287c835d52a0af78af564"
+          }
+        },
+        {
+          "client_id": "849950857083-36394r6gt3okkigsrkarmlpvru1v1hlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxZZL2XswcodyfOfeuR9yfqbpckm93UrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849950857083-36394r6gt3okkigsrkarmlpvru1v1hlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
