@@ -40,7 +40,29 @@ And at least one SDK version (At least Android 5.0).
 
 git clone https://github.com/natsina/Isajoh---Buy-Sell-Exchange-Anything.git
 
+# Importing Application
 
+To import the template, simply open Android Studio and import the template. Make sure to wait 
+for all the processes (the Gradle Build) to complete before continuing to the next step. 
+
+# Addition Steps
+
+Sometimes, the Gradle Build fails, here are some additional steps you can take: 
+Android Studio might ask you to do download some additional SDK components in the 'messages' 
+tab, simply follow the instructions to install and download the additional components to fix this. 
+
+Also, please make sure the app is targeting at least Marshmallow and that all the libraries are linked:
+
+ Libraries (.jar) from the libs folder 
+ All the Gradle defined libraries are linked (as found in app/build.gradle) 
+ Make sure to wait until all loading is complete before manually (re)adding any modules 
+and/or libraries!
+
+You can now run the application using the Android Virtual Device (AVD) that the emulator can use to install and run your application or you can use a real Android device by connecting it via USB.
+
+# Authors
+
+Noris Atsina
 
 
 
